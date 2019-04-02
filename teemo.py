@@ -253,7 +253,7 @@ def main():
         ToPrint = Result_Sub_Domains#this function return value is NoneType ,can't use in function directly
         ToPrint.extend(Result_Emails)
         ToPrint.extend(Result_Subnets)
-        ToPrint.extend(Result_Related_Domains)
+        #ToPrint.extend(Result_Related_Domains)
         for item in ToPrint:
             print G+item+W
 
